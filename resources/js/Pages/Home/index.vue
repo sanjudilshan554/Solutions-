@@ -6,8 +6,7 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li> 
                     </ol>
                 </div>
                 <div class="carousel-inner" role="listbox">
@@ -25,19 +24,6 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img class="img-responsive" src="@/../src/img/1920x1080/bg02.png" alt="Slider Image">
-                        <div class="container">
-                            <div class="carousel-centered">
-                                <div class="margin-b-40">
-                                    <h2 class="carousel-title">Personal Approach</h2>
-                                    <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna
-                                        aliqua <br /> enim minim estudiat veniam siad venumus dolore</p>
-                                </div>
-                                <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
                         <img class="img-responsive" src="@/../src/img/1920x1080/bg03.png" alt="Slider Image">
                         <div class="container">
                             <div class="carousel-centered">
@@ -49,9 +35,9 @@
                                 <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
                             </div>
                         </div>
-                    </div>
+                    </div>  
                     <div class="item">
-                        <img class="img-responsive" src="@/../src/img/1920x1080/bg04.png" alt="Slider Image">
+                        <img class="img-responsive" src="@/../src/img/1920x1080/bg06.png" alt="Slider Image">
                         <div class="container">
                             <div class="carousel-centered">
                                 <div class="margin-b-40">
@@ -63,6 +49,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             <!--========== SLIDER ==========-->
