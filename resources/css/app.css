@@ -7,3 +7,5 @@
 @import url('@/../src/css/animate.css');
 @import url('@/../src/vendor/swiper/css/swiper.min.css');
 @import url('@/../src/css/layout.min.css');
+
+@import url('./style.scss');

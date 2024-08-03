@@ -1,21 +1,22 @@
 <template>
     <AppLayout>
         <template #content>
-            <!-- <body id="body" data-spy="scroll" data-target=".header"> -->
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <div class="container">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
                     </ol>
                 </div>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <!-- <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image"> -->
+                        <img class="img-responsive" src="@/../src/img/1920x1080/bg01.png" alt="Slider Image">
                         <div class="container">
                             <div class="carousel-centered">
                                 <div class="margin-b-40">
-                                    <h1 class="carousel-title">Hi-End Solutions</h1>
+                                    <h1 class="carousel-title">DC Solutions</h1>
                                     <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna
                                         aliqua <br /> enim minim estudiat veniam siad venumus dolore</p>
                                 </div>
@@ -24,7 +25,33 @@
                         </div>
                     </div>
                     <div class="item">
-                        <!-- <img class="img-responsive" src="img/1920x1080/02.jpg" alt="Slider Image"> -->
+                        <img class="img-responsive" src="@/../src/img/1920x1080/bg02.png" alt="Slider Image">
+                        <div class="container">
+                            <div class="carousel-centered">
+                                <div class="margin-b-40">
+                                    <h2 class="carousel-title">Personal Approach</h2>
+                                    <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna
+                                        aliqua <br /> enim minim estudiat veniam siad venumus dolore</p>
+                                </div>
+                                <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="@/../src/img/1920x1080/bg03.png" alt="Slider Image">
+                        <div class="container">
+                            <div class="carousel-centered">
+                                <div class="margin-b-40">
+                                    <h2 class="carousel-title">Personal Approach</h2>
+                                    <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna
+                                        aliqua <br /> enim minim estudiat veniam siad venumus dolore</p>
+                                </div>
+                                <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="@/../src/img/1920x1080/bg04.png" alt="Slider Image">
                         <div class="container">
                             <div class="carousel-centered">
                                 <div class="margin-b-40">
@@ -53,8 +80,8 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
                                     laboret dolore magna ut consequat siad esqudiat dolor</p>
                             </div>
-                            <!-- <img class="full-width img-responsive wow fadeInUp" src="img/500x500/01.jpg"
-                                alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".2s"> -->
+                            <img class="full-width img-responsive wow fadeInUp" src="@/../src/img/500x500/01.jpg"
+                                alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".2s">
                         </div>
                         <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
                             <div class="margin-b-60">
@@ -62,8 +89,8 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
                                     laboret dolore magna ut consequat siad esqudiat dolor</p>
                             </div>
-                            <!-- <img class="full-width img-responsive wow fadeInUp" src="img/500x500/02.jpg"
-                                alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s"> -->
+                            <img class="full-width img-responsive wow fadeInUp" src="@/../src/img/500x500/02.jpg"
+                                alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
                         </div>
                         <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
                             <div class="margin-t-60 margin-b-60">
@@ -71,8 +98,8 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
                                     laboret dolore magna ut consequat siad esqudiat dolor</p>
                             </div>
-                            <!-- <img class="full-width img-responsive wow fadeInUp" src="img/500x500/03.jpg"
-                                alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".4s"> -->
+                            <img class="full-width img-responsive wow fadeInUp" src="@/../src/img/500x500/03.jpg"
+                                alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".4s">
                         </div>
                     </div>
                     <!-- End Masonry Grid -->
@@ -159,7 +186,7 @@
                                 <!-- End Accodrion -->
                             </div>
                         </div>
-                        <!--// end row -->
+
                     </div>
                 </div>
             </div>
@@ -175,13 +202,14 @@
                                 dolore magna aliqua enim minim veniam exercitation</p>
                         </div>
                     </div>
-                    <!--// end row -->
+
 
                     <div class="row">
                         <!-- Latest Products -->
                         <div class="col-sm-4 sm-margin-b-50">
                             <div class="margin-b-20">
-                                <!-- <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image"> -->
+                                <img class="img-responsive" src="@/../src/img/970x647/01.jpg"
+                                    alt="Latest Products Image">
                             </div>
                             <h4><a href="#">Interior</a> <span class="text-uppercase margin-l-20">Architecture</span>
                             </h4>
@@ -194,7 +222,8 @@
                         <!-- Latest Products -->
                         <div class="col-sm-4 sm-margin-b-50">
                             <div class="margin-b-20">
-                                <!-- <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image"> -->
+                                <img class="img-responsive" src="@/../src/img/970x647/02.jpg"
+                                    alt="Latest Products Image">
                             </div>
                             <h4><a href="#">Trend</a> <span class="text-uppercase margin-l-20">Setting</span></h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret
@@ -206,7 +235,8 @@
                         <!-- Latest Products -->
                         <div class="col-sm-4 sm-margin-b-50">
                             <div class="margin-b-20">
-                                <!-- <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image"> -->
+                                <img class="img-responsive" src="@/../src/img/970x647/03.jpg"
+                                    alt="Latest Products Image">
                             </div>
                             <h4><a href="#">Fresh Style</a> <span class="text-uppercase margin-l-20">Philosophy</span>
                             </h4>
@@ -216,7 +246,7 @@
                         </div>
                         <!-- End Latest Products -->
                     </div>
-                    <!--// end row -->
+
                 </div>
             </div>
             <!-- End Latest Products -->
@@ -281,7 +311,7 @@
                                 <!-- End Pricing -->
                             </div>
                         </div>
-                        <!--// end row -->
+
                     </div>
                 </div>
             </div>
@@ -298,18 +328,16 @@
                                     laboret dolore magna aliqua enim minim veniam exercitation</p>
                             </div>
                         </div>
-                        <!--// end row -->
+
 
                         <!-- Masonry Grid -->
                         <div class="masonry-grid row">
-
-
                             <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-30">
                                 <!-- Work -->
                                 <div class="work work-popup-trigger">
                                     <div class="work-overlay">
-                                        <!-- <img class="full-width img-responsive" src="img/397x300/01.jpg"
-                                            alt="Portfolio Image"> -->
+                                        <img class="full-width img-responsive" src="@/../src/img/397x300/01.jpg"
+                                            alt="Portfolio Image">
                                     </div>
                                     <div class="work-popup-overlay">
                                         <div class="work-popup-content">
@@ -362,8 +390,8 @@
                                 <!-- Work -->
                                 <div class="work work-popup-trigger">
                                     <div class="work-overlay">
-                                        <!-- <img class="full-width img-responsive" src="img/397x300/02.jpg"
-                                            alt="Portfolio Image"> -->
+                                        <img class="full-width img-responsive" src="@/../src/img/397x300/02.jpg"
+                                            alt="Portfolio Image">
                                     </div>
                                     <div class="work-popup-overlay">
                                         <div class="work-popup-content">
@@ -416,8 +444,8 @@
                                 <!-- Work -->
                                 <div class="work work-popup-trigger">
                                     <div class="work-overlay">
-                                        <!-- <img class="full-width img-responsive" src="img/397x300/03.jpg"
-                                            alt="Portfolio Image"> -->
+                                        <img class="full-width img-responsive" src="@/../src/img/397x300/03.jpg"
+                                            alt="Portfolio Image">
                                     </div>
                                     <div class="work-popup-overlay">
                                         <div class="work-popup-content">
@@ -464,119 +492,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-30">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <!-- <img class="full-width img-responsive" src="img/397x415/01.jpg"
-                                            alt="Portfolio Image"> -->
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                                                            occaecat cupidatat non proident, sunt in culpa qui officia
-                                                            deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                                                            do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a
-                                                                    class="work-popup-tag-link" href="#">Strategy,</a>
-                                                            </li>
-                                                            <li class="work-popup-tag-item"><a
-                                                                    class="work-popup-tag-link"
-                                                                    href="#">Implementation,</a></li>
-                                                            <li class="work-popup-tag-item"><a
-                                                                    class="work-popup-tag-link" href="#">Credentials</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Manager:</strong> Boris
-                                                            Becker</p>
-                                                        <p class="margin-b-5"><strong>Executive:</strong> Heike Macatsch
-                                                        </p>
-                                                        <p class="margin-b-5"><strong>Architect:</strong> Oliver Pocher
-                                                        </p>
-                                                        <p class="margin-b-5"><strong>Client:</strong> FairTech</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-30">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <!-- <img class="full-width img-responsive" src="img/800x400/01.jpg"
-                                            alt="Portfolio Image"> -->
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                                                            occaecat cupidatat non proident, sunt in culpa qui officia
-                                                            deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                                                            do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a
-                                                                    class="work-popup-tag-link" href="#">Strategy,</a>
-                                                            </li>
-                                                            <li class="work-popup-tag-item"><a
-                                                                    class="work-popup-tag-link"
-                                                                    href="#">Implementation,</a></li>
-                                                            <li class="work-popup-tag-item"><a
-                                                                    class="work-popup-tag-link" href="#">Credentials</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Manager:</strong> Boris
-                                                            Becker</p>
-                                                        <p class="margin-b-5"><strong>Executive:</strong> Heike Macatsch
-                                                        </p>
-                                                        <p class="margin-b-5"><strong>Architect:</strong> Oliver Pocher
-                                                        </p>
-                                                        <p class="margin-b-5"><strong>Client:</strong> FairTech</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
                             </div>
                         </div>
-                        <!-- End Masonry Grid -->
                     </div>
                 </div>
 
@@ -587,22 +504,22 @@
                         <!-- Swiper Wrapper -->
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <!-- <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo"> -->
+                                <img class="swiper-clients-img" src="@/../src/img/clients/01.png" alt="Clients Logo">
                             </div>
                             <div class="swiper-slide">
-                                <!-- <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo"> -->
+                                <img class="swiper-clients-img" src="@/../src/img/clients/02.png" alt="Clients Logo">
                             </div>
                             <div class="swiper-slide">
-                                <!-- <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo"> -->
+                                <img class="swiper-clients-img" src="@/../src/img/clients/03.png" alt="Clients Logo">
                             </div>
                             <div class="swiper-slide">
-                                <!-- <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo"> -->
+                                <img class="swiper-clients-img" src="@/../src/img/clients/04.png" alt="Clients Logo">
                             </div>
                             <div class="swiper-slide">
-                                <!-- <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo"> -->
+                                <img class="swiper-clients-img" src="@/../src/img/clients/05.png" alt="Clients Logo">
                             </div>
                             <div class="swiper-slide">
-                                <!-- <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo"> -->
+                                <img class="swiper-clients-img" src="@/../src/img/clients/06.png" alt="Clients Logo">
                             </div>
                         </div>
                     </div>
@@ -618,7 +535,7 @@
                                     laboret dolore magna aliqua enim minim veniam exercitation</p>
                             </div>
                         </div>
-                        <!--// end row -->
+
 
                         <div class="row row-space-1 margin-b-2">
                             <div class="col-sm-4 sm-margin-b-2">
@@ -661,7 +578,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!--// end row -->
+
 
                         <div class="row row-space-1">
                             <div class="col-sm-4 sm-margin-b-2">
@@ -704,7 +621,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!--// end row -->
                     </div>
                 </div>
             </div>
@@ -749,7 +665,7 @@
                 </div>
                 <div class="map height-300">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.0694570748947!2d7.455080415208266!3d46.94067397914616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39d0cf20e8d1%3A0x9daac4cd3043d067!2sThunstrasse+50%2C+3005+Bern%2C+Switzerland!5e0!3m2!1sen!2sin!4v1496749852928"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2200.0604845626394!2d80.8364971!3d6.3396969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173e41d4af403%3A0x0!2zNi4zMzk2OTY5LCA4MC44MzY0OTcx!5e0!3m2!1sen!2sin!4v1691439640664!5m2!1sen!2sin&z=21"
                         width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -759,4 +675,37 @@
 
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
+import { onMounted } from 'vue';
+import Masonry from 'masonry-layout';
+import imagesLoaded from 'imagesloaded';
+import WOW from 'wow.js';
+import SmoothScroll from 'smooth-scroll';
+
+onMounted(() => {
+    new SmoothScroll('a[href*="#"]', {
+        speed: 300
+    });
+    const elem = document.querySelector('.masonry-grid');
+    imagesLoaded(elem, () => {
+        new Masonry(elem, {
+            itemSelector: '.masonry-grid-item',
+            columnWidth: '.masonry-grid-sizer',
+            percentPosition: true
+        });
+    });
+
+
+    new WOW().init();
+});
+
 </script>
+
+<style>
+.masonry-grid {
+    margin: 0 auto;
+}
+
+.masonry-grid-item {
+    margin-bottom: 16px;
+}
+</style>

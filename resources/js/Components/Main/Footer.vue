@@ -43,7 +43,7 @@
         <div class="content container">
             <div class="row">
                 <div class="col-xs-6">
-                    <!-- <img class="footer-logo" src="img/logo-dark.png" alt="flameonepage Logo"> -->
+                    <img class="footer-logo" src="@/../src/img/logo-dark.png" alt="flameonepage Logo">
                 </div>
                 <div class="col-xs-6 text-right">
                     <p class="margin-b-0"><a class="fweight-700" href="#">FlameOnePage</a> Theme Powered by: <a

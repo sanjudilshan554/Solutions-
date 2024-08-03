@@ -1,5 +1,5 @@
 <template>
-    <header class="header navbar-fixed-top">
+    <header class="header navbar-fixed-top navbar-decorations">
         <nav class="navbar" role="navigation">
             <div class="container">
                 <div class="menu-container js_nav-item">
@@ -10,8 +10,7 @@
 
                     <div class="logo">
                         <a class="logo-wrap" href="#body">
-                            <!-- <img class="logo-img logo-img-main" src="img/logo.png" alt="FlameOnePage Logo"> -->
-                            <!-- <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="FlameOnePage Dark Logo"> -->
+                            <img class="logo-img logo-img-main" src="@/../src/img/logo.png" alt="FlameOnePage Logo">
                         </a>
                     </div>
                 </div>
