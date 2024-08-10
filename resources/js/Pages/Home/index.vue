@@ -6,7 +6,7 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li> 
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                     </ol>
                 </div>
                 <div class="carousel-inner" role="listbox">
@@ -16,10 +16,8 @@
                             <div class="carousel-centered">
                                 <div class="margin-b-40">
                                     <h1 class="carousel-title">DC Solutions</h1>
-                                    <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna
-                                        aliqua <br /> enim minim estudiat veniam siad venumus dolore</p>
+                                    <p class="color-white">Experience the Decade of Excellence</p>
                                 </div>
-                                <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Details</a>
                             </div>
                         </div>
                     </div>
@@ -28,28 +26,35 @@
                         <div class="container">
                             <div class="carousel-centered">
                                 <div class="margin-b-40">
-                                    <h2 class="carousel-title">Personal Approach</h2>
-                                    <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna
-                                        aliqua <br /> enim minim estudiat veniam siad venumus dolore</p>
+                                    <h2 class="carousel-title">Building Tomorrow, Today</h2>
+                                    <p class="color-white">dedication to delivering top-notch services and solutions.
+                                        <br>It
+                                        suggests that DC Solutions is not just about getting the job done but doing it
+                                        with exceptional quality, <br> ensuring that every project meets the highest
+                                        standards.
+                                    </p>
                                 </div>
-                                <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                     <div class="item">
                         <img class="img-responsive" src="@/../src/img/1920x1080/bg06.png" alt="Slider Image">
                         <div class="container">
                             <div class="carousel-centered">
                                 <div class="margin-b-40">
-                                    <h2 class="carousel-title">Personal Approach</h2>
-                                    <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna
-                                        aliqua <br /> enim minim estudiat veniam siad venumus dolore</p>
+                                    <h2 class="carousel-title">Longevity and Experience</h2>
+                                    <p class="color-white">The mention of a decade implies a long-term vision and
+                                        experience.
+                                        <br>It indicates that your company has the expertise to create lasting solutions
+                                        that stand the test of time.<br> It also suggests that you are prepared for
+                                        long-term relationships with your clients, offering them stability and
+                                        reliability.
+                                    </p>
                                 </div>
-                                <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <!--========== SLIDER ==========-->
@@ -67,7 +72,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
                                     laboret dolore magna ut consequat siad esqudiat dolor</p>
                             </div>
-                            <img class="full-width img-responsive wow fadeInUp" src="@/../src/img/500x500/01.jpg"
+                            <img class="full-width img-responsive wow fadeInUp border-radius" src="@/../src/img/500x500/01.jpg"
                                 alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".2s">
                         </div>
                         <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
@@ -76,7 +81,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
                                     laboret dolore magna ut consequat siad esqudiat dolor</p>
                             </div>
-                            <img class="full-width img-responsive wow fadeInUp" src="@/../src/img/500x500/02.jpg"
+                            <img class="full-width img-responsive wow fadeInUp border-radius" src="@/../src/img/500x500/02.jpg"
                                 alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
                         </div>
                         <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
@@ -85,7 +90,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
                                     laboret dolore magna ut consequat siad esqudiat dolor</p>
                             </div>
-                            <img class="full-width img-responsive wow fadeInUp" src="@/../src/img/500x500/03.jpg"
+                            <img class="full-width img-responsive wow fadeInUp border-radius" src="@/../src/img/500x500/03.jpg"
                                 alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".4s">
                         </div>
                     </div>
@@ -195,7 +200,7 @@
                         <!-- Latest Products -->
                         <div class="col-sm-4 sm-margin-b-50">
                             <div class="margin-b-20">
-                                <img class="img-responsive" src="@/../src/img/970x647/01.jpg"
+                                <img class="img-responsive border-radius" src="@/../src/img/970x647/01.jpg"
                                     alt="Latest Products Image">
                             </div>
                             <h4><a href="#">Interior</a> <span class="text-uppercase margin-l-20">Architecture</span>
@@ -209,7 +214,7 @@
                         <!-- Latest Products -->
                         <div class="col-sm-4 sm-margin-b-50">
                             <div class="margin-b-20">
-                                <img class="img-responsive" src="@/../src/img/970x647/02.jpg"
+                                <img class="img-responsive border-radius" src="@/../src/img/970x647/02.jpg"
                                     alt="Latest Products Image">
                             </div>
                             <h4><a href="#">Trend</a> <span class="text-uppercase margin-l-20">Setting</span></h4>
@@ -222,7 +227,7 @@
                         <!-- Latest Products -->
                         <div class="col-sm-4 sm-margin-b-50">
                             <div class="margin-b-20">
-                                <img class="img-responsive" src="@/../src/img/970x647/03.jpg"
+                                <img class="img-responsive border-radius" src="@/../src/img/970x647/03.jpg"
                                     alt="Latest Products Image">
                             </div>
                             <h4><a href="#">Fresh Style</a> <span class="text-uppercase margin-l-20">Philosophy</span>
@@ -539,14 +544,14 @@
                                 </div>
                             </div>
                             <div class="col-sm-4 sm-margin-b-2">
-                                <div class="service bg-color-base" data-height="height">
+                                <div class="service" data-height="height">
                                     <div class="service-element">
-                                        <i class="service-icon color-white icon-screen-tablet"></i>
+                                        <i class="service-icon icon-chemistry"></i>
                                     </div>
                                     <div class="service-info">
-                                        <h3 class="color-white">Stuff Management</h3>
-                                        <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut
-                                            consequat siad esqudiat dolor</p>
+                                        <h3>Company Formation</h3>
+                                        <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad
+                                            esqudiat dolor</p>
                                     </div>
                                     <a href="#" class="content-wrapper-link"></a>
                                 </div>
@@ -651,6 +656,7 @@
                     </div>
                 </div>
                 <div class="map height-300">
+                    
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2200.0604845626394!2d80.8364971!3d6.3396969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173e41d4af403%3A0x0!2zNi4zMzk2OTY5LCA4MC44MzY0OTcx!5e0!3m2!1sen!2sin!4v1691439640664!5m2!1sen!2sin&z=21"
                         width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>

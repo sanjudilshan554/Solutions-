@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities; */
 
+/* @import url('@/../src/vendor/css/bootstrap.css'); */
 @import url('@/../src/vendor/simple-line-icons/simple-line-icons.min.css');
 @import url('@/../src/vendor/bootstrap/css/bootstrap.min.css');
 @import url('@/../src/css/animate.css');
 @import url('@/../src/vendor/swiper/css/swiper.min.css');
 @import url('@/../src/css/layout.min.css');
+
+/* Bootstrap icons */
+@import url('@/../src/vendor/css/bootstrap-icons.css');
 
 @import url('./style.scss');
