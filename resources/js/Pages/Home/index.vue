@@ -60,38 +60,108 @@
             <!--========== SLIDER ==========-->
 
             <!--========== PAGE LAYOUT ==========-->
+            <div id="services">
+                <div class="bg-color-sky-light" data-auto-height="true">
+                    <div class="content-lg container">
+                        <div class="row margin-b-40">
+                            <div class="col-sm-6">
+                                <h2 class="text-shadow" style="color:#FFEA00">Services</h2>
+                                <p class="text-color-white">We specialize in creating compelling digital experiences
+                                    with our wide range of
+                                    services, including professional website development, and expert
+                                    computer repair and assembly. We also offer software installation and advertisement
+                                    creation, ensuring your business stands out both online and offline.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="row row-space-1 margin-b-2">
+                            <div class="col-sm-4 sm-margin-b-2">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <!-- <i class="service-icon icon-chemistry"></i> -->
+                                        <i class="service-icon bi bi-file-code text-color-yellow"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3 class="text-color-yellow">Website Development</h3>
+                                        <p class="margin-b-5 text-color-white">Creating responsive, user-friendly, and
+                                            visually appealing
+                                            websites tailored to your business needs .</p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 sm-margin-b-2">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <i class="service-icon bi bi-badge-ad text-color-yellow"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3 class="text-color-yellow">Advertisement Creation</h3>
+                                        <p class="margin-b-5 text-color-white">Designing impactful advertisements that
+                                            effectively
+                                            promote your products or services.</p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <i class="service-icon bi bi-tools text-color-yellow"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3 class="text-color-yellow">Repairing & Installation</h3>
+                                        <p class="margin-b-5 text-color-white">Expert repairs, custom builds, and
+                                            efficient software
+                                            installations to keep your devices running smoothly.
+                                        </p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- About -->
-            <div id="about">
+            <div id="about" class="about">
                 <div class="content-lg container">
                     <!-- Masonry Grid -->
                     <div class="masonry-grid row">
                         <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30 ">
                             <div class="margin-b-60">
-                                <h2>Harmonious Planning</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
-                                    laboret dolore magna ut consequat siad esqudiat dolor</p>
+                                <h2 class="text-color-yellow text-shadow">Creative thinking</h2>
+                                <p class="text-color-white">Unlock innovative solutions tailored to your unique needs,
+                                    driven by a
+                                    forward-thinking approach that encourages out-of-the-box ideas.</p>
                             </div>
-                            <img class="full-width img-responsive wow fadeInUp border-radius" src="@/../src/img/500x500/01.jpg"
-                                alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".2s">
+                            <img class="full-width img-responsive wow fadeInUp border-radius creative-thinking"
+                                src="@/../src/img/500x500/1.png" alt="Portfolio Image" data-wow-duration=".3"
+                                data-wow-delay=".2s">
                         </div>
                         <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
                             <div class="margin-b-60">
-                                <h2>Easy Integration</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
-                                    laboret dolore magna ut consequat siad esqudiat dolor</p>
+                                <h2 class="text-color-yellow text-shadow">Easy Integration</h2>
+                                <p class="text-color-white">Seamlessly blend our technology with your existing systems,
+                                    ensuring a smooth and
+                                    hassle-free setup that saves time and resources.</p>
                             </div>
-                            <img class="full-width img-responsive wow fadeInUp border-radius" src="@/../src/img/500x500/02.jpg"
-                                alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
+                            <img class="full-width img-responsive wow fadeInUp border-radius creative-thinking"
+                                src="@/../src/img/500x500/2.png" alt="Portfolio Image" data-wow-duration=".3"
+                                data-wow-delay=".3s">
                         </div>
                         <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
                             <div class="margin-t-60 margin-b-60">
-                                <h2>Superior Support</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
-                                    laboret dolore magna ut consequat siad esqudiat dolor</p>
+                                <h2 class="text-color-yellow text-shadow">Superior Support</h2>
+                                <p class="text-color-white">Benefit from our dedicated support team, always ready to
+                                    assist you with prompt,
+                                    personalized help whenever you need it.</p>
                             </div>
-                            <img class="full-width img-responsive wow fadeInUp border-radius" src="@/../src/img/500x500/03.jpg"
-                                alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".4s">
+                            <img class="full-width img-responsive wow fadeInUp border-radius creative-thinking"
+                                src="@/../src/img/500x500/3.png" alt="Portfolio Image" data-wow-duration=".3"
+                                data-wow-delay=".4s">
                         </div>
                     </div>
                     <!-- End Masonry Grid -->
@@ -101,75 +171,89 @@
                     <div class="content-lg container">
                         <div class="row">
                             <div class="col-md-5 col-sm-5 md-margin-b-60">
-                                <div class="margin-t-50 margin-b-30">
-                                    <h2>Why Us?</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                <div class="why-us-section" style="text-align:center; margin: 0px 0 30px;">
+                                    <h2 class="text-color-yellow text-shadow" style=" margin-bottom: 20px;">Why Us?</h2>
+                                    <img class="wow fadeInUp" style="width: 210px; margin-bottom: 20px;"
+                                        src="@/../src/img/500x500/why_transparent.png" alt="Why Us Image"
+                                        data-wow-duration=".3" data-wow-delay=".4s">
+                                    <p class="text-color-white"
+                                        style=" line-height: 1.6; margin: 0 auto; max-width: 600px;">
+                                        We deliver innovative, tailored solutions that integrate seamlessly with your
+                                        systems. With proven expertise and a customer-first approach, we ensure your
+                                        success through effortless integration and unparalleled support every step of
+                                        the way.
                                     </p>
                                 </div>
-                                <a href="#" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">More...</a>
+
+                                <!-- <a href="#" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">More...</a> -->
                             </div>
                             <div class="col-md-5 col-sm-7 col-md-offset-2">
                                 <!-- Accordion -->
                                 <div class="accordion">
                                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading" role="tab" id="headingOne">
-                                                <h4 class="panel-title">
-                                                    <a class="panel-title-child" role="button" data-toggle="collapse"
-                                                        data-parent="#accordion" href="#collapseOne"
-                                                        aria-expanded="true" aria-controls="collapseOne">
-                                                        Expert Research
+                                        <div class="panel panel-default why-us-radius" style="background-color: black;">
+                                            <div class="panel-heading why-us-radius" role="tab" id="headingOne">
+                                                <h4 class="panel-title why-us-radius">
+                                                    <a class="panel-title-child why-us-radius" role="button"
+                                                        data-toggle="collapse" data-parent="#accordion"
+                                                        href="#collapseOne" aria-expanded="true"
+                                                        aria-controls="collapseOne">
+                                                        Innovative Solutions
                                                     </a>
                                                 </h4>
                                             </div>
                                             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
                                                 aria-labelledby="headingOne">
                                                 <div class="panel-body">
-                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-                                                    skateboard dolor brunch.
+                                                    We embrace creativity and innovation, offering
+                                                    cutting-edge
+                                                    solutions that are tailored to meet the unique needs of your
+                                                    business, ensuring
+                                                    you stay ahead in the market.
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h4 class="panel-title">
-                                                    <a class="collapsed panel-title-child" role="button"
+                                        <div class="panel panel-default why-us-radius">
+                                            <div class="panel-heading why-us-radius" role="tab" id="headingTwo">
+                                                <h4 class="panel-title why-us-radius">
+                                                    <a class="collapsed panel-title-child why-us-radius" role="button"
                                                         data-toggle="collapse" data-parent="#accordion"
                                                         href="#collapseTwo" aria-expanded="false"
                                                         aria-controls="collapseTwo">
-                                                        Hi-Tech Engineering
+                                                        Effortless Integration
                                                     </a>
                                                 </h4>
                                             </div>
                                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
-                                                <div class="panel-body">
-                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-                                                    skateboard dolor brunch.
+                                                <div class="panel-body why-us-radius">
+                                                    Our products are designed with simplicity in
+                                                    mind, allowing for quick and seamless integration with your existing
+                                                    systems.
+                                                    This means less downtime and more focus on what matters most—growing
+                                                    your
+                                                    business.
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading" role="tab" id="headingThree">
-                                                <h4 class="panel-title">
-                                                    <a class="collapsed panel-title-child" role="button"
+                                        <div class="panel panel-default why-us-radius">
+                                            <div class="panel-heading why-us-radius" role="tab" id="headingThree">
+                                                <h4 class="panel-title why-us-radius">
+                                                    <a class="collapsed panel-title-child why-us-radius" role="button"
                                                         data-toggle="collapse" data-parent="#accordion"
                                                         href="#collapseThree" aria-expanded="false"
                                                         aria-controls="collapseThree">
-                                                        Outstanding Results
+                                                        Proven Expertise:
                                                     </a>
                                                 </h4>
                                             </div>
                                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingThree">
                                                 <div class="panel-body">
-                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-                                                    skateboard dolor brunch.
+                                                    With a wealth of experience in the industry, our team
+                                                    brings deep knowledge and a track record of success to help you
+                                                    achieve your
+                                                    business goals efficiently and effectively.
                                                 </div>
                                             </div>
                                         </div>
@@ -185,12 +269,13 @@
             <!-- End About -->
 
             <!-- Latest Products -->
-            <div id="products">
+            <div id="products" class="projects">
                 <div class="content-lg container">
                     <div class="row margin-b-40">
                         <div class="col-sm-6">
-                            <h2>Recent Projects</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret
+                            <h2 class="text-color-yellow text-shadow">Recent Projects</h2>
+                            <p class="text-color-white">Lorem ipsum dolor sit amet consectetur adipiscing elit sed
+                                tempor incididunt ut laboret
                                 dolore magna aliqua enim minim veniam exercitation</p>
                         </div>
                     </div>
@@ -244,12 +329,11 @@
             <!-- End Latest Products -->
 
             <!-- Pricing -->
-            <div id="pricing">
+            <!-- <div id="pricing">
                 <div class="bg-color-sky-light">
                     <div class="content-lg container">
                         <div class="row row-space-1">
                             <div class="col-sm-4 sm-margin-b-2">
-                                <!-- Pricing -->
                                 <div class="pricing">
                                     <div class="margin-b-30">
                                         <i class="pricing-icon icon-chemistry"></i>
@@ -263,11 +347,9 @@
                                     </ul>
                                     <a href="pricing.html"
                                         class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Start Now</a>
-                                </div>
-                                <!-- End Pricing -->
+                                </div> 
                             </div>
-                            <div class="col-sm-4 sm-margin-b-2">
-                                <!-- Pricing -->
+                            <div class="col-sm-4 sm-margin-b-2"> 
                                 <div class="pricing pricing-active">
                                     <div class="margin-b-30">
                                         <i class="pricing-icon icon-badge"></i>
@@ -281,11 +363,9 @@
                                     </ul>
                                     <a href="pricing.html"
                                         class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Start Now</a>
-                                </div>
-                                <!-- End Pricing -->
+                                </div> 
                             </div>
-                            <div class="col-sm-4">
-                                <!-- Pricing -->
+                            <div class="col-sm-4"> 
                                 <div class="pricing">
                                     <div class="margin-b-30">
                                         <i class="pricing-icon icon-shield"></i>
@@ -299,24 +379,22 @@
                                     </ul>
                                     <a href="pricing.html"
                                         class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Start Now</a>
-                                </div>
-                                <!-- End Pricing -->
+                                </div> 
                             </div>
                         </div>
-
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- End Pricing -->
 
             <!-- Work -->
-            <div id="work">
+            <div id="work" class="work">
                 <div class="section-seperator">
                     <div class="content-md container">
                         <div class="row margin-b-40">
                             <div class="col-sm-6">
-                                <h2>Portfolio</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
+                                <h2 class="text-color-yellow">Portfolio</h2>
+                                <p class="text-color-white">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
                                     laboret dolore magna aliqua enim minim veniam exercitation</p>
                             </div>
                         </div>
@@ -517,146 +595,31 @@
                     </div>
                 </div>
             </div>
-            <div id="services">
-                <div class="bg-color-sky-light" data-auto-height="true">
-                    <div class="content-lg container">
-                        <div class="row margin-b-40">
-                            <div class="col-sm-6">
-                                <h2>Services</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut
-                                    laboret dolore magna aliqua enim minim veniam exercitation</p>
-                            </div>
-                        </div>
 
-
-                        <div class="row row-space-1 margin-b-2">
-                            <div class="col-sm-4 sm-margin-b-2">
-                                <div class="service" data-height="height">
-                                    <div class="service-element">
-                                        <i class="service-icon icon-chemistry"></i>
-                                    </div>
-                                    <div class="service-info">
-                                        <h3>Company Formation</h3>
-                                        <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad
-                                            esqudiat dolor</p>
-                                    </div>
-                                    <a href="#" class="content-wrapper-link"></a>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 sm-margin-b-2">
-                                <div class="service" data-height="height">
-                                    <div class="service-element">
-                                        <i class="service-icon icon-chemistry"></i>
-                                    </div>
-                                    <div class="service-info">
-                                        <h3>Company Formation</h3>
-                                        <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad
-                                            esqudiat dolor</p>
-                                    </div>
-                                    <a href="#" class="content-wrapper-link"></a>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="service" data-height="height">
-                                    <div class="service-element">
-                                        <i class="service-icon icon-badge"></i>
-                                    </div>
-                                    <div class="service-info">
-                                        <h3>KPI Optimization</h3>
-                                        <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad
-                                            esqudiat dolor</p>
-                                    </div>
-                                    <a href="#" class="content-wrapper-link"></a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="row row-space-1">
-                            <div class="col-sm-4 sm-margin-b-2">
-                                <div class="service" data-height="height">
-                                    <div class="service-element">
-                                        <i class="service-icon icon-notebook"></i>
-                                    </div>
-                                    <div class="service-info">
-                                        <h3>Information Security</h3>
-                                        <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad
-                                            esqudiat dolor</p>
-                                    </div>
-                                    <a href="#" class="content-wrapper-link"></a>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 sm-margin-b-2">
-                                <div class="service" data-height="height">
-                                    <div class="service-element">
-                                        <i class="service-icon icon-speedometer"></i>
-                                    </div>
-                                    <div class="service-info">
-                                        <h3>Recrutinment</h3>
-                                        <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad
-                                            esqudiat dolor</p>
-                                    </div>
-                                    <a href="#" class="content-wrapper-link"></a>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="service" data-height="height">
-                                    <div class="service-element">
-                                        <i class="service-icon icon-badge"></i>
-                                    </div>
-                                    <div class="service-info">
-                                        <h3>Materials Supply</h3>
-                                        <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad
-                                            esqudiat dolor</p>
-                                    </div>
-                                    <a href="#" class="content-wrapper-link"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="contact">
-                <div class="section-seperator">
+            <div id="contact" class="contact">
+                <!-- <div class="section-seperator">
                     <div class="content-lg container">
                         <div class="row">
-                            <div class="col-sm-4 sm-margin-b-50">
-                                <h3><a href="http://ft-seo.ch/">Zurich</a> <span
-                                        class="text-uppercase margin-l-20">Human
-                                        Resources</span></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut
-                                    laboret dolor magna ut consequat siad esqudiat dolor</p>
-                                <ul class="list-unstyled contact-list">
-                                    <li><i class="margin-r-10 color-base icon-call-out"></i> +41 60 66 555 44 33</li>
-                                    <li><i class="margin-r-10 color-base icon-envelope"></i> hr@flameonepage.com</li>
-                                </ul>
+                            <div class="col-sm-4 sm-margin-b-50"> 
                             </div>
                             <div class="col-sm-4 sm-margin-b-50">
-                                <h3><a href="http://ft-seo.ch/">Malta</a> <span
-                                        class="text-uppercase margin-l-20">Development</span></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut
+                                <h3><a href="http://ft-seo.ch/" class="text-color-yellow">Sanju</a> <span
+                                        class="text-uppercase margin-l-20 text-color-yellow " >Development</span></h3>
+                                <p class="text-color-white">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut
                                     laboret dolor magna ut consequat siad esqudiat dolor</p>
                                 <ul class="list-unstyled contact-list">
-                                    <li><i class="margin-r-10 color-base icon-call-out"></i> +356 7965 1257</li>
-                                    <li><i class="margin-r-10 color-base icon-envelope"></i>
-                                        developmemt@flameonepage.com</li>
+                                    <li class="text-color-white"><i class="margin-r-10  icon-call-out text-color-white"></i> +94 (71) 298 8298</li>
+                                    <li class="text-color-white"><i class="margin-r-10  icon-envelope text-color-white"></i>
+                                        sanjudilshan554@gmail.com</li>
                                 </ul>
                             </div>
-                            <div class="col-sm-4 sm-margin-b-50">
-                                <h3><a href="http://ft-seo.ch/">Manchester</a> <span
-                                        class="text-uppercase margin-l-20">CEO</span></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut
-                                    laboret dolor magna ut consequat siad esqudiat dolor</p>
-                                <ul class="list-unstyled contact-list">
-                                    <li><i class="margin-r-10 color-base icon-call-out"></i> +44 654 583 5518</li>
-                                    <li><i class="margin-r-10 color-base icon-envelope"></i> ceo@flameonepage.com</li>
-                                </ul>
+                            <div class="col-sm-4 sm-margin-b-50"> 
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="map height-300">
-                    
+
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2200.0604845626394!2d80.8364971!3d6.3396969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173e41d4af403%3A0x0!2zNi4zMzk2OTY5LCA4MC44MzY0OTcx!5e0!3m2!1sen!2sin!4v1691439640664!5m2!1sen!2sin&z=21"
                         width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>

@@ -1,5 +1,5 @@
 .navbar-decorations {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .header .logo {
@@ -202,4 +202,65 @@
     .nav-collapse.is-open {
         max-height: 500px;
     }
+}
+.why-us-radius{
+    border-radius: 50px 50px 0px 0px !important;
+}
+
+.bg-color-sky-light {
+    background: #474646 !important;
+}
+
+.service{
+    background: #6e6e6e !important;
+    border-radius: 10px; 
+}
+
+.about{
+    background: #474646 !important;
+}
+
+.text-color-yellow{
+    color:#FFEA00 !important;  
+}
+
+.text-color-white{
+    color:#eceaea !important;
+}
+
+.accordion .collapse.in, .accordion [aria-expanded=true] {
+    color:#474646 !important;
+    background-color:#e7d50d !important;
+}
+
+.panel-title{
+    color:#FFEA00 !important;
+    background: #474646 !important;
+}
+
+.projects{
+    background: #474646 !important;
+}
+
+.contact{
+    background: #474646 !important;
+}
+
+.work{
+    background: #474646 !important;
+}
+
+.text-shadow{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.26);
+}
+
+.creative-thinking:hover{
+    box-shadow: 1px 1px 10px 1px rgb(138, 136, 136);
+    transition-duration: 0.2s;
+}
+
+.footer-content{
+    background: #474646 !important;
 }
