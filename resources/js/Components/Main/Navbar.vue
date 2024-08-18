@@ -15,19 +15,19 @@
                 <div :class="['nav-collapse', { 'is-open': isMenuOpen }]">
                     <div class="menu-container">
                         <ul class="nav navbar-nav navbar-nav-right">
-                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child"
+                            <li class="js_nav-item nav-item " @click="hideMenu"><a class="nav-item-child text-color-yellow"
                                     href="#body">Home</a></li>
-                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child"
+                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child text-color-yellow"
                                     href="#about">Team</a></li>
-                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child"
+                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child text-color-yellow"
                                     href="#services">Services</a></li>
-                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child"
+                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child text-color-yellow"
                                     href="#products">Products</a></li>
-                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child"
+                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child text-color-yellow"
                                     href="#work">Credentials</a></li>
-                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child"
+                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child text-color-yellow" 
                                     href="#pricing">Pricing</a></li>
-                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child"
+                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child text-color-yellow"
                                     href="#contact">Contact</a></li>
                         </ul>
                     </div>
