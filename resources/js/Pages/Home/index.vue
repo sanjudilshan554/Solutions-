@@ -1,6 +1,8 @@
 <template>
     <AppLayout>
         <template #content>
+
+            <!-- Slider -->
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
@@ -21,10 +23,9 @@
                     </div>
                 </div>
             </div>
-            <!--========== SLIDER ==========-->
 
-            <!--========== PAGE LAYOUT ==========-->
-            <div id="services">
+            <!-- Services -->
+            <div id="services background-setup">
                 <div class="bg-color-sky-light" data-auto-height="true">
                     <div class="content-lg container">
                         <div class="row margin-b-40">
@@ -88,13 +89,14 @@
                     </div>
                 </div>
             </div>
+
             <!-- About -->
-            <div id="about" class="about">
+            <div id="about" class="about background-setup">
                 <div class="content-lg container">
                     <!-- Masonry Grid -->
                     <div class="masonry-grid row">
                         <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30 ">
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30 " style="border-radius: 10px !important;">
                             <div class="margin-b-60">
                                 <h2 class="text-color-yellow text-shadow">Creative thinking</h2>
                                 <p class="text-color-white">Unlock innovative solutions tailored to your unique needs,
@@ -233,56 +235,61 @@
             <!-- End About -->
 
             <!-- Latest Products -->
-            <div id="products" class="projects">
+            <div id="products" class="projects background-setup">
                 <div class="content-lg container">
                     <div class="row margin-b-40">
                         <div class="col-sm-6">
                             <h2 class="text-color-yellow text-shadow">Recent Projects</h2>
-                            <p class="text-color-white">Lorem ipsum dolor sit amet consectetur adipiscing elit sed
-                                tempor incididunt ut laboret
-                                dolore magna aliqua enim minim veniam exercitation</p>
+                            <p class="text-color-white">Discover our latest work focused on innovation, community
+                                growth, and impactful solutions. These projects highlight our commitment to enhancing
+                                user experiences and driving meaningful change."</p>
                         </div>
                     </div>
 
 
                     <div class="row">
                         <!-- Latest Products -->
-                        <div class="col-sm-4 sm-margin-b-50">
+                        <div class="col-sm-4   wow fadeInUp    ">
                             <div class="margin-b-20">
-                                <img class="img-responsive border-radius" src="@/../src/img/970x647/01.jpg"
+                                <img class="img-responsive border-radius project-images" src="@/../src/img/970x647/01.png"
                                     alt="Latest Products Image">
                             </div>
-                            <h4><a href="#">Interior</a> <span class="text-uppercase margin-l-20">Architecture</span>
+                            <h4><a href="#" class="project-keyword">KUPPI Conductor</a> <span
+                                    class="text-uppercase margin-l-20">Knowledge Sharing
+                                </span>
                             </h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret
-                                dolor magna ut consequat siad esqudiat dolor</p>
+                            <p>Base on knowledge sharing, Features include user registration,
+                                user profiles, and smart qualification based on expertise.</p>
                             <a class="link" href="#">Details</a>
                         </div>
                         <!-- End Latest Products -->
 
                         <!-- Latest Products -->
-                        <div class="col-sm-4 sm-margin-b-50">
+                        <div class="col-sm-4 wow fadeInUp">
                             <div class="margin-b-20">
-                                <img class="img-responsive border-radius" src="@/../src/img/970x647/02.jpg"
+                                <img class="img-responsive border-radius project-images" src="@/../src/img/970x647/02.png"
                                     alt="Latest Products Image">
                             </div>
-                            <h4><a href="#">Trend</a> <span class="text-uppercase margin-l-20">Setting</span></h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret
-                                dolor magna ut consequat siad esqudiat dolor</p>
+                            <h4><a href="#" class="project-keyword">SL innovation</a> <span
+                                    class="text-uppercase margin-l-20">Innovation & Creativity</span></h4>
+                            <p>Invent new things, creating objects, archive goals, give ratings,
+                                posting Blog, get support,instructions to patent
+                                SQLservices are available on this site.</p>
                             <a class="link" href="#">Details</a>
                         </div>
                         <!-- End Latest Products -->
 
                         <!-- Latest Products -->
-                        <div class="col-sm-4 sm-margin-b-50">
+                        <div class="col-sm-4 wow fadeInUp">
                             <div class="margin-b-20">
-                                <img class="img-responsive border-radius" src="@/../src/img/970x647/03.jpg"
+                                <img class="img-responsive border-radius project-images" src="@/../src/img/970x647/03.png"
                                     alt="Latest Products Image">
                             </div>
-                            <h4><a href="#">Fresh Style</a> <span class="text-uppercase margin-l-20">Philosophy</span>
+                            <h4><a href="#" class="project-keyword">Blood donator</a> <span
+                                    class="text-uppercase margin-l-20">Health & Social Good</span>
                             </h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret
-                                dolor magna ut consequat siad esqudiat dolor</p>
+                            <p>Find, make and accept donation requests, update personal event
+                                timelines, and facilitate blood donations for those in need.</p>
                             <a class="link" href="#">Details</a>
                         </div>
                         <!-- End Latest Products -->
@@ -352,7 +359,7 @@
             <!-- End Pricing -->
 
             <!-- Technologies -->
-            <div id="work" class="work">
+            <div id="work" class="work background-setup">
                 <div class="content-lg container">
                     <swiper :modules="[Autoplay]" :autoplay="{ delay: 2000 }" loop :slides-per-view="4"
                         space-between="20">
@@ -363,7 +370,7 @@
                 </div>
             </div>
 
-            <div id="contact" class="contact">
+            <div id="contact" class="contact background-setup">
                 <!-- <div class="section-seperator">
                     <div class="content-lg container">
                         <div class="row">
@@ -403,9 +410,7 @@ import Masonry from 'masonry-layout';
 import imagesLoaded from 'imagesloaded';
 import WOW from 'wow.js';
 import SmoothScroll from 'smooth-scroll';
-
 import { Swiper, SwiperSlide } from 'swiper/vue';
-
 import 'swiper/swiper-bundle.css';
 import { Autoplay } from 'swiper/modules';
 
@@ -423,16 +428,52 @@ const images = [
 
 const header_images = [
     {
-        src: new URL('@/../src/img/1920x1080/bg01.jpg', import.meta.url).href,
+        src: new URL('@/../src/img/1920x1080/bg05.jpg', import.meta.url).href,
         alt: 'Clients Logo',
         title: 'DC Solutions',
-        description: 'Experience the Decade of Excellence'
+        description: 'Delivering Innovative Software Solutions for a Digital Future'
     },
     {
-        src: new URL('@/../src/img/1920x1080/bg02.jpg', import.meta.url).href,
+        src: new URL('@/../src/img/1920x1080/bg06.jpg', import.meta.url).href,
         alt: 'Clients Logo',
         title: 'Empowering Your Business',
         description: 'Delivering Innovative Software Solutions for a Digital Future'
+    },
+    {
+        src: new URL('@/../src/img/1920x1080/bg07.jpg', import.meta.url).href,
+        alt: 'Clients Logo',
+        title: 'Accelerating Business Growth',
+        description: 'Pioneering Digital Software for a New Age'
+    },
+    {
+        src: new URL('@/../src/img/1920x1080/bg08.jpg', import.meta.url).href,
+        alt: 'Clients Logo',
+        title: 'Connecting Your Business',
+        description: 'Unlocking Digital Potential in a Globalized World'
+    },
+    {
+        src: new URL('@/../src/img/1920x1080/bg09.jpg', import.meta.url).href,
+        alt: 'Clients Logo',
+        title: 'Enhancing Business Agility',
+        description: 'Delivering Reliable Solutions for a Tech-Driven Era'
+    },
+    {
+        src: new URL('@/../src/img/1920x1080/bg10.jpg', import.meta.url).href,
+        alt: 'Clients Logo',
+        title: 'Transforming Your Business',
+        description: 'Leading the Way with Digital Innovation and Cloud Solutions'
+    },
+    {
+        src: new URL('@/../src/img/1920x1080/bg11.jpg', import.meta.url).href,
+        alt: 'Clients Logo',
+        title: 'Future-Proofing Your Business',
+        description: 'Empowering Growth with AI and Intelligent Technologies'
+    },
+    {
+        src: new URL('@/../src/img/1920x1080/bg12.jpg', import.meta.url).href,
+        alt: 'Clients Logo',
+        title: 'Propelling Your Business Forward',
+        description: 'Pioneering Tomorrow’s Digital Solutions Today'
     },
 ];
 

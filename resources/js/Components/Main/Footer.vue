@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer text-center footer-content">
+    <footer class="footer text-center footer-content background-setup">
         <div class="content container">
             <div class="row">
                 <div class="col-xs-12">

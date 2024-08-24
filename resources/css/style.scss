@@ -206,22 +206,37 @@
 }
 
 .why-us-radius {
-    border-radius: 50px 50px 0px 0px !important;
+    border-radius: 5px 5px 0px 0px !important;
 }
 
 .bg-color-sky-light {
-    background: #606060 !important;
+    background: #2c2828 !important;
 }
 
+.about {
+    background: #2c2828 !important;
+}
+
+.projects {
+    background: #2c2828 !important;
+}
+
+.work {
+    background: #2c2828 !important;
+}
+
+.footer-content {
+    background: #2c2828 !important;
+}
+
+.background-setup{
+    background: #2c2828 !important;
+}
 .service {
     background: #58585893 !important;
     border-radius: 10px;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.479);
     margin: 10px;
-}
-
-.about {
-    background: #606060 !important;
 }
 
 .text-color-yellow {
@@ -230,6 +245,13 @@
 
 .text-color-white {
     color: #ffffff !important;
+}
+
+.item-child{
+    color: rgb(218, 218, 218) !important;
+}
+.item-child:hover{
+    color: white !important;
 }
 
 .accordion .collapse.in,
@@ -243,16 +265,8 @@
     background: #606060 !important;
 }
 
-.projects {
-    background: #606060 !important;
-}
-
 .contact {
     background: #b1afaf !important;
-}
-
-.work {
-    background: #606060 !important;
 }
 
 .text-shadow {
@@ -266,9 +280,6 @@
     transition-duration: 0.2s;
 }
 
-.footer-content {
-    background: #606060 !important;
-}
 
 .technology-images {
     background-color:  #ffffff;
@@ -302,3 +313,33 @@
 .swiper-decorations{
     background-color:#606060 !important ;
 }
+
+.project-keyword{
+    color: rgb(230, 228, 228);
+    // text-shadow: 2px 5px 5px rgba(243, 243, 243, 0.5);
+}
+
+.project-images{ 
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.project-images:hover{
+    transform: scale(1.02); 
+}
+
+.project-images {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+ .technology-images{
+    transition: 0.4s;
+ }
+
+ .technology-images:hover{
+    transform: scale(1.02) !important; 
+ }
