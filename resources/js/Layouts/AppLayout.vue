@@ -9,6 +9,7 @@
         <main>
             <slot name="content" />
 
+            <slot name="modal" />
         </main>
 
         <Footer />

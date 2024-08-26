@@ -41,8 +41,8 @@
 
 
                         <div class="row row-space-1 margin-b-2">
-                            <div class="col-sm-4 sm-margin-b-2">
-                                <div class="service " data-height="height">
+                            <div class="col-sm-4 sm-margin-b-2 ">
+                                <div class="service service-card" data-height="height">
                                     <div class="service-element">
                                         <!-- <i class="service-icon icon-chemistry"></i> -->
                                         <i class="service-icon bi bi-file-code text-color-yellow"></i>
@@ -56,7 +56,7 @@
                                     <a href="#" class="content-wrapper-link"></a>
                                 </div>
                             </div>
-                            <div class="col-sm-4 sm-margin-b-2">
+                            <div class="col-sm-4 sm-margin-b-2 service-card">
                                 <div class="service" data-height="height">
                                     <div class="service-element">
                                         <i class="service-icon bi bi-badge-ad text-color-yellow"></i>
@@ -70,7 +70,7 @@
                                     <a href="#" class="content-wrapper-link"></a>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 service-card">
                                 <div class="service" data-height="height">
                                     <div class="service-element">
                                         <i class="service-icon bi bi-tools text-color-yellow"></i>
@@ -93,17 +93,17 @@
             <!-- About -->
             <div id="about" class="about background-setup">
                 <div class="content-lg container">
-                    <!-- Masonry Grid -->
                     <div class="masonry-grid row">
                         <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30 " style="border-radius: 10px !important;">
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30 "
+                            style="border-radius: 10px !important;">
                             <div class="margin-b-60">
                                 <h2 class="text-color-yellow text-shadow">Creative thinking</h2>
                                 <p class="text-color-white">Unlock innovative solutions tailored to your unique needs,
                                     driven by a
                                     forward-thinking approach that encourages out-of-the-box ideas.</p>
                             </div>
-                            <img class="full-width img-responsive wow fadeInUp border-radius creative-thinking"
+                            <img class="full-width img-responsive wow fadeInUp border-radius"
                                 src="@/../src/img/500x500/1.png" alt="Portfolio Image" data-wow-duration=".3"
                                 data-wow-delay=".2s">
                         </div>
@@ -114,7 +114,7 @@
                                     ensuring a smooth and
                                     hassle-free setup that saves time and resources.</p>
                             </div>
-                            <img class="full-width img-responsive wow fadeInUp border-radius creative-thinking"
+                            <img class="full-width img-responsive wow fadeInUp border-radius "
                                 src="@/../src/img/500x500/2.png" alt="Portfolio Image" data-wow-duration=".3"
                                 data-wow-delay=".3s">
                         </div>
@@ -125,12 +125,11 @@
                                     assist you with prompt,
                                     personalized help whenever you need it.</p>
                             </div>
-                            <img class="full-width img-responsive wow fadeInUp border-radius creative-thinking"
+                            <img class="full-width img-responsive wow fadeInUp border-radius"
                                 src="@/../src/img/500x500/3.png" alt="Portfolio Image" data-wow-duration=".3"
                                 data-wow-delay=".4s">
                         </div>
                     </div>
-                    <!-- End Masonry Grid -->
                 </div>
 
                 <div class="bg-color-sky-light">
@@ -249,10 +248,10 @@
 
                     <div class="row">
                         <!-- Latest Products -->
-                        <div class="col-sm-4   wow fadeInUp    ">
+                        <div class="col-sm-4   wow fadeInUp" @click="openProductModal(1)">
                             <div class="margin-b-20">
-                                <img class="img-responsive border-radius project-images" src="@/../src/img/970x647/01.png"
-                                    alt="Latest Products Image">
+                                <img class="img-responsive border-radius project-images"
+                                    src="@/../src/img/970x647/01.png" alt="Latest Products Image">
                             </div>
                             <h4><a href="#" class="project-keyword">KUPPI Conductor</a> <span
                                     class="text-uppercase margin-l-20">Knowledge Sharing
@@ -265,10 +264,10 @@
                         <!-- End Latest Products -->
 
                         <!-- Latest Products -->
-                        <div class="col-sm-4 wow fadeInUp">
+                        <div class="col-sm-4 wow fadeInUp" @click="openProductModal(2)">
                             <div class="margin-b-20">
-                                <img class="img-responsive border-radius project-images" src="@/../src/img/970x647/02.png"
-                                    alt="Latest Products Image">
+                                <img class="img-responsive border-radius project-images"
+                                    src="@/../src/img/970x647/02.png" alt="Latest Products Image">
                             </div>
                             <h4><a href="#" class="project-keyword">SL innovation</a> <span
                                     class="text-uppercase margin-l-20">Innovation & Creativity</span></h4>
@@ -280,10 +279,10 @@
                         <!-- End Latest Products -->
 
                         <!-- Latest Products -->
-                        <div class="col-sm-4 wow fadeInUp">
+                        <div class="col-sm-4 wow fadeInUp" @click="openProductModal(3)">
                             <div class="margin-b-20">
-                                <img class="img-responsive border-radius project-images" src="@/../src/img/970x647/03.png"
-                                    alt="Latest Products Image">
+                                <img class="img-responsive border-radius project-images"
+                                    src="@/../src/img/970x647/03.png" alt="Latest Products Image">
                             </div>
                             <h4><a href="#" class="project-keyword">Blood donator</a> <span
                                     class="text-uppercase margin-l-20">Health & Social Good</span>
@@ -399,13 +398,36 @@
                         width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
+
+
+        </template>
+
+        <template #modal>
+            <!-- Modal --> 
+            <div class="modal fade bd-example-modal-lg" id="product-modal" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content" style="overflow: hidden;">
+                        <h1 class="text-light text-center mt-2" style="color:white; opacity: 0.9; padding-top: 20px;">KUPPI CONDUCTOR</h1>
+                        <div class="d-flex justify-content-center">
+                            <div class="card" style="width: 38rem;">
+                                <img :src="projectImage[0]" class="card-img-top" style="width: 100%;" alt="missed">
+                                <div class="card-body">
+                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </template>
     </AppLayout>
 </template>
 
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue'
-import { onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 import Masonry from 'masonry-layout';
 import imagesLoaded from 'imagesloaded';
 import WOW from 'wow.js';
@@ -414,6 +436,10 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 import { Autoplay } from 'swiper/modules';
 
+import homeImage from '@/../src/img/projects/kc/home.png';
+import loginImage from '@/../src/img/projects/kc/login.png';
+
+const projectImage = ref({});
 
 const images = [
     { src: new URL('@/../src/img/technologies/01.png', import.meta.url).href, alt: 'Clients Logo' },
@@ -425,6 +451,11 @@ const images = [
     { src: new URL('@/../src/img/technologies/07.png', import.meta.url).href, alt: 'Clients Logo' },
     { src: new URL('@/../src/img/technologies/08.png', import.meta.url).href, alt: 'Clients Logo' },
 ];
+
+const projectOne = ref([
+    homeImage,
+    loginImage,
+]);
 
 const header_images = [
     {
@@ -476,6 +507,15 @@ const header_images = [
         description: 'Pioneering Tomorrow’s Digital Solutions Today'
     },
 ];
+
+const openProductModal = (id) => {
+
+    if (id == 1) {
+        projectImage.value = projectOne.value;
+    }
+
+    $('#product-modal').modal('show');
+}
 
 onMounted(() => {
     new SmoothScroll('a[href*="#"]', {
