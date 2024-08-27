@@ -453,14 +453,36 @@ body {
     font-weight: bold;
 }
 
-.image-border{
-     width: 88rem;
+.image-border {
+    width: 88rem;
 }
 
-.w-100{
-     width: 100%;
+.w-100 {
+    width: 100%;
 }
 
-.modal-description{
-    padding-top: 25px; font-size: larger; 
+.modal-description {
+    padding-top: 25px;
+    font-size: larger;
+}
+
+.close-btn-header {
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    color: rgb(241, 241, 241);
+}
+
+.close-btn-middle {
+    font-size: 2rem;
+    padding-right: 15px;
+}
+
+.close-btn {
+    font-size: 2.5rem;
+    color: rgb(241, 241, 241);
+}
+
+.close-btn-header { 
+    color: white !important;
 }

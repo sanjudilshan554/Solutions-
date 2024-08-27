@@ -403,12 +403,26 @@
         </template>
 
         <template #modal>
-            
+
             <!-- Kuppi Conductor Modal -->
             <div class="modal fade bd-example-modal-lg" id="kc-modal" tabindex="-1" role="dialog"
                 aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
-                    <div class="modal-content" style="overflow: hidden;">
+                    <div class="modal-content">
+
+                        <div class="row">
+                            <div class="col-6"></div>
+                            <div class="col-6"> <button type="button"
+                                    class="close position-absolute text-light modal-header-text close-btn-header"
+                                    @click.prevent="closeBloodDonationModal" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="close-btn-middle">
+                                        <i class="bi bi-x-circle-fill close-btn"></i>
+                                    </span>
+                                </button></div>
+                        </div>
+
+
+
                         <div class="text-light text-center mt-2 modal-header-text">
                             KUPPI CONDUCTOR</div>
                         <p class=" text-center text-light">A Social Learning Management System</p>
@@ -506,7 +520,19 @@
             <div class="modal fade bd-example-modal-lg" id="blood-donation-modal" tabindex="-1" role="dialog"
                 aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
+
                     <div class="modal-content" style="overflow: hidden;">
+                        <div class="row">
+                            <div class="col-6"></div>
+                            <div class="col-6"> <button type="button"
+                                    class="close position-absolute text-light modal-header-text close-btn-header"
+                                    @click.prevent="closeBloodDonationModal" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="close-btn-middle">
+                                        <i class="bi bi-x-circle-fill close-btn"></i>
+                                    </span>
+                                </button></div>
+                        </div>
+
                         <div class="text-light text-center mt-2 modal-header-text">
                             BloodConnect</div>
                         <p class=" text-center text-light">A Community-Driven Blood Donation App</p>
@@ -608,6 +634,18 @@
                 aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content" style="overflow: hidden;">
+
+                         <div class="row">
+                            <div class="col-6"></div>
+                            <div class="col-6"> <button type="button"
+                                    class="close position-absolute text-light modal-header-text close-btn-header"
+                                    @click.prevent="closeBloodDonationModal" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="close-btn-middle">
+                                        <i class="bi bi-x-circle-fill close-btn"></i>
+                                    </span>
+                                </button></div>
+                        </div>
+
                         <div class="text-light text-center mt-2 modal-header-text">
                             SL Innovation</div>
                         <p class=" text-center text-light">Empowering Ideas and Innovation</p>
@@ -799,6 +837,20 @@ const openProductModal = (id) => {
         $('#blood-donation-modal').modal('show');
     }
 }
+
+const closeKcModal = () => {
+    $('#kc-modal').modal('hide');
+}
+
+const closeSLModal = () => {
+    $('#sl-innovation-modal').modal('hide');
+}
+
+const closeBloodDonationModal = () => {
+    $('#blood-donation-modal').modal('hide');
+}
+
+
 
 onMounted(() => {
     new SmoothScroll('a[href*="#"]', {
