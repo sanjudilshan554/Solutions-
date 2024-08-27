@@ -403,17 +403,284 @@
         </template>
 
         <template #modal>
-            <!-- Modal --> 
-            <div class="modal fade bd-example-modal-lg" id="product-modal" tabindex="-1" role="dialog"
+            
+            <!-- Kuppi Conductor Modal -->
+            <div class="modal fade bd-example-modal-lg" id="kc-modal" tabindex="-1" role="dialog"
                 aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content" style="overflow: hidden;">
-                        <h1 class="text-light text-center mt-2" style="color:white; opacity: 0.9; padding-top: 20px;">KUPPI CONDUCTOR</h1>
+                        <div class="text-light text-center mt-2 modal-header-text">
+                            KUPPI CONDUCTOR</div>
+                        <p class=" text-center text-light">A Social Learning Management System</p>
                         <div class="d-flex justify-content-center">
-                            <div class="card" style="width: 38rem;">
-                                <img :src="projectImage[0]" class="card-img-top" style="width: 100%;" alt="missed">
-                                <div class="card-body">
-                               
+                            <div class="card justify-content-center image-border">
+                                <img :src="projectImage[0]" class="card-img-top w-100" alt="missed">
+                                <div class="card-body d-flex">
+                                    <p class="justify-content-center text-light text-center modal-description">Kuppi
+                                        Conductor is an innovative
+                                        Learning Management System (LMS) that goes beyond traditional online education
+                                        platforms by integrating entertainment and social interaction. It offers a
+                                        vibrant community-driven environment where students and lecturers collaborate,
+                                        share knowledge, and support each other’s learning journey.</p>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6">
+                                        <ul class="">
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Student Requests and
+                                                Lecturers Interaction <p>Students can directly request assistance or
+                                                    guidance from lecturers,
+                                                    making the learning process more interactive and personalized. The
+                                                    platform allows lecturers to respond to queries and mentor students
+                                                    based on their needs.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Knowledge Sharing
+                                                Among Students & Lectures <p> Not only Students, Lectures also can share
+                                                    their expertise, insights, and
+                                                    learning experiences with others by posting content related to
+                                                    various topics. This peer-to-peer knowledge sharing builds a
+                                                    collaborative learning environment, allowing them to learn from
+                                                    one another.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Skill and Profile
+                                                Management <p>Each student has a personalized profile showcasing their
+                                                    skills and expertise. Students can highlight their strengths, making
+                                                    it easier for others to identify them as valuable resources for
+                                                    learning in specific domains.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Intelligent Learning
+                                                Area Matching <p>When students search for topics they want to learn, the
+                                                    system automatically suggests the most relevant individuals
+                                                    (students or lecturers) based on their profiles and past
+                                                    performance. This intelligent matching feature ensures that learners
+                                                    connect with the right person for targeted knowledge.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="">
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Entertainment-Enhanced
+                                                Learning <p>Unlike conventional LMS platforms, Kuppi Conductor
+                                                    incorporates entertainment elements, transforming learning into an
+                                                    engaging experience. Students can share posts, collaborate on
+                                                    discussions, and enjoy a more relaxed and enjoyable learning
+                                                    atmosphere.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Community Engagement
+                                                and Connectivity <p>The platform fosters a strong community where
+                                                    everyone—students and lecturers—can interact, share resources, and
+                                                    help each other grow. It’s more than just an LMS; it’s a social
+                                                    network focused on collaborative learning.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Content Posting and
+                                                Social Features <p>The platform fosters a strong community where
+                                                    everyone—students and lecturers—can interact, share resources, and
+                                                    help each other grow. It’s more than just an LMS; it’s a social
+                                                    network focused on collaborative learning.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Gamification for
+                                                Enhanced Learning Experience<p>Kuppi Conductor incorporates gamification
+                                                    elements such as badges, points, and leaderboards to motivate
+                                                    students and make learning more engaging. As students participate in
+                                                    knowledge sharing, complete tasks, or help others, they earn
+                                                    rewards, fostering a competitive yet fun learning atmosphere.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blood Donation Modal -->
+            <div class="modal fade bd-example-modal-lg" id="blood-donation-modal" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content" style="overflow: hidden;">
+                        <div class="text-light text-center mt-2 modal-header-text">
+                            BloodConnect</div>
+                        <p class=" text-center text-light">A Community-Driven Blood Donation App</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="card justify-content-center image-border">
+                                <img :src="projectImage[0]" class="card-img-top w-100" alt="missed">
+                                <div class="card-body d-flex">
+                                    <p class="justify-content-center text-light text-center modal-description">
+                                        BloodConnect is a blood donation app that seamlessly connects donors with
+                                        recipients while fostering community engagement through social posts, real-time
+                                        alerts, and donation campaigns. The platform also offers personalized matching,
+                                        rewards, and collaboration features to make saving lives easier and more
+                                        interactive.</p>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6">
+                                        <ul class="">
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Seamless Blood Donor
+                                                Matching and Requests<p>BloodConnect offers an intuitive platform where
+                                                    users in need of blood can easily request donations. The system
+                                                    intelligently matches donors based on location, blood type, and
+                                                    availability, making it faster and more reliable to find the right
+                                                    donor in critical situations.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Social Collaboration
+                                                and Knowledge Sharing<p>Beyond donations, BloodConnect allows users to
+                                                    share posts, updates, and stories related to blood donation and
+                                                    healthcare. This social aspect helps build awareness, encourages
+                                                    discussions, and fosters a community where everyone can contribute
+                                                    their ideas and knowledge.
+                                                </p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i> Personalized Donor
+                                                and Recipient Profiles <p> Each user has a dedicated profile that
+                                                    showcases their blood type, donation history, and availability.
+                                                    Donors and recipients can easily manage their profiles, set
+                                                    preferences, and update their status in real-time.
+                                                </p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Blood Donation
+                                                Campaigns and Events <p>Users can create and join local blood donation
+                                                    drives, campaigns, and events. The app provides tools to organize
+                                                    these events, send out notifications, and track participation,
+                                                    making it easier to mobilize communities for a common cause.</p>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="">
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Emergency Alerts and
+                                                Notifications<p> In urgent situations, the app sends out real-time
+                                                    notifications to nearby donors who match the required blood type.
+                                                    This feature ensures that emergencies are addressed swiftly,
+                                                    reducing the time taken to locate and connect with donors.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Gamified Experience
+                                                with Recognition and Rewards <p>To keep users engaged and motivated,
+                                                    BloodConnect includes gamification features such as badges, points,
+                                                    and rankings for frequent donors. Users earn recognition for their
+                                                    contributions, which helps build a sense of accomplishment and
+                                                    community spirit.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Health Tips and
+                                                Educational Resources<p>The app also offers valuable resources,
+                                                    including health tips, articles, and guides related to blood
+                                                    donation and overall wellness. Users can access expert advice, stay
+                                                    informed, and learn how to maintain good health while supporting
+                                                    others.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Interactive
+                                                Donor-Recipient Communication<p>BloodConnect provides secure and direct
+                                                    messaging between donors and recipients, allowing them to
+                                                    communicate, coordinate, and plan donation schedules effectively.
+                                                    This personal interaction makes the donation process smoother and
+                                                    more convenient for everyone involved.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SL innovation Modal -->
+            <div class="modal fade bd-example-modal-lg" id="sl-innovation-modal" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content" style="overflow: hidden;">
+                        <div class="text-light text-center mt-2 modal-header-text">
+                            SL Innovation</div>
+                        <p class=" text-center text-light">Empowering Ideas and Innovation</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="card justify-content-center image-border">
+                                <img :src="projectImage[0]" class="card-img-top w-100" alt="missed">
+                                <div class="card-body d-flex">
+                                    <p class="justify-content-center text-light text-center modal-description">SL
+                                        Innovation is a platform for Sri Lankan innovators to showcase their ideas,
+                                        apply for patents, share knowledge, and connect with experts. The app supports
+                                        collaboration, provides patent assistance, and offers resources to turn
+                                        innovative ideas into successful ventures.</p>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6">
+                                        <ul class="">
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Platform for
+                                                Showcasing Innovations <p>SL Innovation provides a dedicated platform
+                                                    where users can post and share their innovative ideas and projects,
+                                                    helping them gain visibility and recognition across Sri Lanka.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Patent Support and
+                                                Guidance<p> NInnovators can apply for patents directly through the
+                                                    platform, with expert guidance and resources available to help
+                                                    protect their intellectual property.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Collaborative
+                                                Knowledge Sharing<p>The platform encourages users to share insights,
+                                                    best practices, and learnings through posts and blogs, fostering a
+                                                    culture of open innovation and knowledge exchange.
+                                                </p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Connect with Experts
+                                                and Technicians<p>WUsers can seek help from skilled technicians,
+                                                    industry experts, and mentors, making it easier to bring their ideas
+                                                    to life through collaboration and expert advice.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="">
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Innovation-Focused
+                                                Blog Space<p>The platform features a dedicated blog section where users
+                                                    can publish articles, stories, and tips related to innovation,
+                                                    contributing to a growing library of resources.
+                                                </p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Idea Collaboration
+                                                and Team Building<p>SL Innovation allows users to find and collaborate
+                                                    with like-minded individuals, forming teams to work together on
+                                                    innovative projects, boosting the potential for success.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i> Innovation
+                                                Competitions and Challenges<p> The platform hosts regular innovation
+                                                    competitions and challenges, giving users opportunities to showcase
+                                                    their ideas, compete, and win recognition or rewards.</p>
+                                            </li>
+                                            <li class="text-light text-left list-style-none"><i
+                                                    class="bi bi-arrow-right-circle-fill mr-2"></i>Support for Idea
+                                                Commercialization<p>Innovators can access resources and connect with
+                                                    investors or business partners who can help take their ideas from
+                                                    concept to market, enabling real-world impact.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -436,8 +703,9 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 import { Autoplay } from 'swiper/modules';
 
-import homeImage from '@/../src/img/projects/kc/home.png';
-import loginImage from '@/../src/img/projects/kc/login.png';
+import KCHomeImage from '@/../src/img/projects/KC/KC_Main.png';
+import BloodDonationHomeImage from '@/../src/img/projects/Blood Donation/Blood_Donation_Main.png';
+import SLInnovationHomeImage from '@/../src/img/projects/SL innovation/SL_Main.png';
 
 const projectImage = ref({});
 
@@ -453,9 +721,18 @@ const images = [
 ];
 
 const projectOne = ref([
-    homeImage,
-    loginImage,
+    KCHomeImage,
 ]);
+
+const projectTwo = ref([
+    SLInnovationHomeImage,
+]);
+
+const projectThree = ref([
+    BloodDonationHomeImage,
+]);
+
+
 
 const header_images = [
     {
@@ -509,12 +786,18 @@ const header_images = [
 ];
 
 const openProductModal = (id) => {
-
     if (id == 1) {
         projectImage.value = projectOne.value;
+        $('#kc-modal').modal('show');
     }
-
-    $('#product-modal').modal('show');
+    if (id == 2) {
+        projectImage.value = projectTwo.value;
+        $('#sl-innovation-modal').modal('show');
+    }
+    if (id == 3) {
+        projectImage.value = projectThree.value;
+        $('#blood-donation-modal').modal('show');
+    }
 }
 
 onMounted(() => {

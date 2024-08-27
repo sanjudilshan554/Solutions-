@@ -329,13 +329,13 @@ body {
 }
 
 .modal-backdrop {
-    backdrop-filter: black;
-    background-color: rgba(0, 0, 0, 0.3);
+    // backdrop-filter: black;
+    // background-color: rgba(0, 0, 0, 0.3);
 }
 
 
 .modal-content {
-    background: rgba(247, 249, 250, 0.253);
+    background: rgba(111, 112, 112, 0.253);
     border-radius: 10px;
     backdrop-filter: blur(40px);
     border: none;
@@ -365,11 +365,106 @@ body {
     overflow: hidden;
     display: block;
     object-fit: contain;
-    object-position: center; 
+    object-position: center;
 }
 
 .technology-images:hover {
     box-shadow: 1px 1px 40px white;
     transition: 0.5s;
     cursor: pointer;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-light {
+    color: white;
+}
+
+/* Container to hold the row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* Column styling */
+.col-6 {
+    flex: 0 0 50%;
+    /* Each column takes 50% width */
+    max-width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+/* Optional: Add spacing between columns */
+.col-6 {
+    padding: 10px;
+}
+
+/* Add some content styling */
+.col-6 {
+    // background-color: #f8f9fa; /* Light grey background */
+    // border: 1px solid #ddd; /* Light border */
+    text-align: center;
+    /* Center text */
+    padding: 5px;
+    /* Padding inside the column */
+    font-family: Arial, sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.mr-2 {
+    margin-right: 10px !important;
+}
+
+.text-xl {
+    font-size: x-large;
+}
+
+.modal-header-text {
+    color: white;
+    opacity: 0.9;
+    padding-top: 20px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.image-border{
+     width: 88rem;
+}
+
+.w-100{
+     width: 100%;
+}
+
+.modal-description{
+    padding-top: 25px; font-size: larger; 
 }
