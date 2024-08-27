@@ -2,7 +2,7 @@
     <header class="header navbar-fixed-top navbar-decorations">
         <nav class="navbar" role="navigation">
             <div class="container">
-                <div class="menu-container d-flex justify-content-between">
+                <div class="menu-container justify-content-between">
                     <img class="navbar-image d-block d-sm-none" :style="{ 'width': isMenuOpen ? '60px' : '20px' }"
                         src="@/../src/img/dc_Logo_w_ico_transparent.png" alt="FlameOnePage Logo" />
 
