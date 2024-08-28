@@ -7,10 +7,10 @@
                          <div class="col-xs-12">
                             <ul class="list-unstyled footer-list ">
                                 <li class="footer-list-item d-flex align-items-center gap-2 icon-padding">
-                                    <a href="tel:+94712988298" ><i class="bi bi-telephone-fill footer-cons text-color-white"></i></a>
+                                    <a href="tel:+94712988298" ><i class="bi bi-telephone-fill footer-cons  text-color-white"></i></a>
                                 </li>
-                                <li class="footer-list-item d-flex align-items-center gap-2 icon-padding">
-                                    <a href="mailto:sanjudilshan554@gmail.com"   class="icon-padding"><i class="bi bi-envelope footer-cons text-color-white"></i></a>
+                                <li class="footer-list-item d-flex align-items-center gap-2 ">
+                                    <a href="mailto:sanjudilshan554@gmail.com"   class="icon-padding"><i class="bi bi-envelope-fill text-color-white footer-cons"></i> </a>
                                 </li>
                                 <li class="footer-list-item icon-padding"><a href="https://web.facebook.com/profile.php?id=100049952920825" target="blank"><i class="bi bi-facebook footer-cons text-color-white"></i></a>
                                 </li>

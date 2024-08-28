@@ -115,7 +115,7 @@
                                     hassle-free setup that saves time and resources.</p>
                             </div>
                             <img class="full-width img-responsive wow fadeInUp border-radius "
-                                src=" " alt="Portfolio Image" data-wow-duration=".3"
+                                src="@/../src/img/500x500/2.png" alt="Portfolio Image" data-wow-duration=".3"
                                 data-wow-delay=".3s">
                         </div>
                         <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
@@ -308,7 +308,6 @@
                     </swiper>
                 </div>
             </div>
-
             
             <div id="contact" class="contact background-setup">
                 <div class="background-setup">

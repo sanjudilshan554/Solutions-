@@ -265,7 +265,7 @@
 .text-shadow {
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 1px 10px 1px rgb(24, 24, 24);
 }
 
 .creative-thinking:hover {
@@ -365,7 +365,7 @@ body {
 }
 
 .technology-images:hover {
-    box-shadow: 1px 1px 40px white;
+    box-shadow: 1px 1px 10px white;
     transition: 0.5s;
     cursor: pointer;
 }
