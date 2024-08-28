@@ -22,11 +22,9 @@
                             <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child item-child"
                                     href="#services">Services</a></li>
                             <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child item-child"
-                                    href="#products">Products</a></li>
+                                    href="#products">Projects</a></li>
                             <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child item-child"
-                                    href="#work">Credentials</a></li>
-                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child item-child" 
-                                    href="#pricing">Pricing</a></li>
+                                    href="#technologies">Technologies</a></li>
                             <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child item-child"
                                     href="#contact">Contact</a></li>
                         </ul>
@@ -51,6 +49,4 @@ const hideMenu = () => {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

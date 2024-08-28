@@ -25,7 +25,7 @@
             </div>
 
             <!-- Services -->
-            <div id="services background-setup">
+            <div id="services">
                 <div class="bg-color-sky-light" data-auto-height="true">
                     <div class="content-lg container">
                         <div class="row margin-b-40">
@@ -115,7 +115,7 @@
                                     hassle-free setup that saves time and resources.</p>
                             </div>
                             <img class="full-width img-responsive wow fadeInUp border-radius "
-                                src="@/../src/img/500x500/2.png" alt="Portfolio Image" data-wow-duration=".3"
+                                src=" " alt="Portfolio Image" data-wow-duration=".3"
                                 data-wow-delay=".3s">
                         </div>
                         <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
@@ -230,8 +230,7 @@
 
                     </div>
                 </div>
-            </div>
-            <!-- End About -->
+            </div> 
 
             <!-- Latest Products -->
             <div id="products" class="projects background-setup">
@@ -298,67 +297,8 @@
             </div>
             <!-- End Latest Products -->
 
-            <!-- Pricing -->
-            <!-- <div id="pricing">
-                <div class="bg-color-sky-light">
-                    <div class="content-lg container">
-                        <div class="row row-space-1">
-                            <div class="col-sm-4 sm-margin-b-2">
-                                <div class="pricing">
-                                    <div class="margin-b-30">
-                                        <i class="pricing-icon icon-chemistry"></i>
-                                        <h3>Silver Package <span> - $</span> 74.99</h3>
-                                        <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                    </div>
-                                    <ul class="list-unstyled pricing-list margin-b-50">
-                                        <li class="pricing-list-item">Starter Kit</li>
-                                        <li class="pricing-list-item">Basic Features</li>
-                                        <li class="pricing-list-item">Annual Report</li>
-                                    </ul>
-                                    <a href="pricing.html"
-                                        class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Start Now</a>
-                                </div> 
-                            </div>
-                            <div class="col-sm-4 sm-margin-b-2"> 
-                                <div class="pricing pricing-active">
-                                    <div class="margin-b-30">
-                                        <i class="pricing-icon icon-badge"></i>
-                                        <h3>Gold Package <span> - $</span> 199.99</h3>
-                                        <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                    </div>
-                                    <ul class="list-unstyled pricing-list margin-b-50">
-                                        <li class="pricing-list-item">Professional Kit</li>
-                                        <li class="pricing-list-item">Full Options</li>
-                                        <li class="pricing-list-item">Bi-anual Report</li>
-                                    </ul>
-                                    <a href="pricing.html"
-                                        class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Start Now</a>
-                                </div> 
-                            </div>
-                            <div class="col-sm-4"> 
-                                <div class="pricing">
-                                    <div class="margin-b-30">
-                                        <i class="pricing-icon icon-shield"></i>
-                                        <h3>Platinum Package <span> - $</span> 500</h3>
-                                        <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                    </div>
-                                    <ul class="list-unstyled pricing-list margin-b-50">
-                                        <li class="pricing-list-item">Complete Kit</li>
-                                        <li class="pricing-list-item">Advanced Options</li>
-                                        <li class="pricing-list-item">Monthly Report</li>
-                                    </ul>
-                                    <a href="pricing.html"
-                                        class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Start Now</a>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- End Pricing -->
-
             <!-- Technologies -->
-            <div id="work" class="work background-setup">
+            <div id="technologies" class="work background-setup">
                 <div class="content-lg container">
                     <swiper :modules="[Autoplay]" :autoplay="{ delay: 2000 }" loop :slides-per-view="4"
                         space-between="20">
@@ -369,30 +309,29 @@
                 </div>
             </div>
 
+            
             <div id="contact" class="contact background-setup">
-                <!-- <div class="section-seperator">
-                    <div class="content-lg container">
-                        <div class="row">
-                            <div class="col-sm-4 sm-margin-b-50"> 
-                            </div>
-                            <div class="col-sm-4 sm-margin-b-50">
-                                <h3><a href="http://ft-seo.ch/" class="text-color-yellow">Sanju</a> <span
-                                        class="text-uppercase margin-l-20 text-color-yellow " >Development</span></h3>
-                                <p class="text-color-white">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut
-                                    laboret dolor magna ut consequat siad esqudiat dolor</p>
+                <div class="background-setup">
+                    <div class="content-lg container text-center">
+                        <div class=""> 
+                            <div class="">
+                                <div class="">
+                                    <img :src="profileIMage" alt="" style="width: 180px; border-radius: 100%; box-shadow: 0px 0px 0px 2px white; margin-bottom: 20px;">
+                                </div>
+                                <h3><a  class="text-color-yellow">Sanju Dilshan</a></h3>
+                                <p class="text-color-white  ">
+                                    I am dedicated to learning new technologies and delivering attractive, high-quality products.
+                                </p>
                                 <ul class="list-unstyled contact-list">
-                                    <li class="text-color-white"><i class="margin-r-10  icon-call-out text-color-white"></i> +94 (71) 298 8298</li>
-                                    <li class="text-color-white"><i class="margin-r-10  icon-envelope text-color-white"></i>
-                                        sanjudilshan554@gmail.com</li>
+                                    <li class="text-color-white"><i class="margin-r-10  icon-call-out  "></i> <a href="tel:+94712988298" class="text-light">+94 (71) 298 8298</a></li>
+                                    <li class="text-color-white"><i class="margin-r-10  icon-envelope "></i><a href="mailto:sanjudilshan554@gmail.com" class="text-light">sanjudilshan554@gmail.com</a>
+                                        </li>
                                 </ul>
-                            </div>
-                            <div class="col-sm-4 sm-margin-b-50"> 
-                            </div>
+                            </div> 
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <div class="map height-300">
-
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2200.0604845626394!2d80.8364971!3d6.3396969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173e41d4af403%3A0x0!2zNi4zMzk2OTY5LCA4MC44MzY0OTcx!5e0!3m2!1sen!2sin!4v1691439640664!5m2!1sen!2sin&z=21"
                         width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -409,20 +348,12 @@
                 aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
-
-                        <div class="row">
-                            <div class="col-6"></div>
-                            <div class="col-6"> <button type="button"
-                                    class="close position-absolute text-light modal-header-text close-btn-header"
-                                    @click.prevent="closeBloodDonationModal" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="close-btn-middle">
-                                        <i class="bi bi-x-circle-fill close-btn"></i>
-                                    </span>
-                                </button></div>
+                        <div class="close-btn-header">
+                            <button type="button" class="close-btn-center" @click.prevent="closeKcModal"
+                                aria-label="Close">
+                                <i class="bi bi-x-circle-fill close-btn"></i>
+                            </button>
                         </div>
-
-
-
                         <div class="text-light text-center mt-2 modal-header-text">
                             KUPPI CONDUCTOR</div>
                         <p class=" text-center text-light">A Social Learning Management System</p>
@@ -520,19 +451,13 @@
             <div class="modal fade bd-example-modal-lg" id="blood-donation-modal" tabindex="-1" role="dialog"
                 aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
-
                     <div class="modal-content" style="overflow: hidden;">
-                        <div class="row">
-                            <div class="col-6"></div>
-                            <div class="col-6"> <button type="button"
-                                    class="close position-absolute text-light modal-header-text close-btn-header"
-                                    @click.prevent="closeBloodDonationModal" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="close-btn-middle">
-                                        <i class="bi bi-x-circle-fill close-btn"></i>
-                                    </span>
-                                </button></div>
+                        <div class="close-btn-header">
+                            <button type="button" class="close-btn-center" @click.prevent="closeBloodDonationModal"
+                                aria-label="Close">
+                                <i class="bi bi-x-circle-fill close-btn"></i>
+                            </button>
                         </div>
-
                         <div class="text-light text-center mt-2 modal-header-text">
                             BloodConnect</div>
                         <p class=" text-center text-light">A Community-Driven Blood Donation App</p>
@@ -634,18 +559,12 @@
                 aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content" style="overflow: hidden;">
-
-                         <div class="row">
-                            <div class="col-6"></div>
-                            <div class="col-6"> <button type="button"
-                                    class="close position-absolute text-light modal-header-text close-btn-header"
-                                    @click.prevent="closeBloodDonationModal" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="close-btn-middle">
-                                        <i class="bi bi-x-circle-fill close-btn"></i>
-                                    </span>
-                                </button></div>
+                        <div class="close-btn-header">
+                            <button type="button" class="close-btn-center" @click.prevent="closeSLModal"
+                                aria-label="Close">
+                                <i class="bi bi-x-circle-fill close-btn"></i>
+                            </button>
                         </div>
-
                         <div class="text-light text-center mt-2 modal-header-text">
                             SL Innovation</div>
                         <p class=" text-center text-light">Empowering Ideas and Innovation</p>
@@ -744,6 +663,8 @@ import { Autoplay } from 'swiper/modules';
 import KCHomeImage from '@/../src/img/projects/KC/KC_Main.png';
 import BloodDonationHomeImage from '@/../src/img/projects/Blood Donation/Blood_Donation_Main.png';
 import SLInnovationHomeImage from '@/../src/img/projects/SL innovation/SL_Main.png';
+
+import profileIMage from '@/../src/img/profile/profile.jpeg';
 
 const projectImage = ref({});
 
