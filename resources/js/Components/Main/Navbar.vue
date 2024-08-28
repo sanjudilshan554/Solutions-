@@ -1,5 +1,5 @@
 <template>
-    <header class="header navbar-fixed-top navbar-decorations">
+    <header :class="['header navbar-fixed-top navbar-decorations', { 'navbar-scrolled': hasScrolled }]">
         <nav class="navbar" role="navigation">
             <div class="container">
                 <div class="menu-container justify-content-between">
@@ -15,7 +15,7 @@
                 <div :class="['nav-collapse', { 'is-open': isMenuOpen }]">
                     <div class="menu-container">
                         <ul class="nav navbar-nav navbar-nav-right">
-                            <li class="js_nav-item nav-item " @click="hideMenu"><a class="nav-item-child item-child"
+                            <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child item-child"
                                     href="#body">Home</a></li>
                             <li class="js_nav-item nav-item" @click="hideMenu"><a class="nav-item-child item-child"
                                     href="#about">Team</a></li>
@@ -36,9 +36,10 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 
 const isMenuOpen = ref(false);
+const hasScrolled = ref(false);
 
 const toggleMenu = () => {
     isMenuOpen.value = !isMenuOpen.value;
@@ -47,6 +48,55 @@ const toggleMenu = () => {
 const hideMenu = () => {
     isMenuOpen.value = false;
 };
+
+const handleScroll = () => {
+    hasScrolled.value = window.scrollY > 50;
+};
+
+onMounted(() => {
+    window.addEventListener('scroll', handleScroll);
+});
+
+onUnmounted(() => {
+    window.removeEventListener('scroll', handleScroll);
+});
 </script>
 
-<style scoped></style>
+<style scoped>
+.header {
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.navbar-decorations {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-scrolled {
+    background: rgba(111, 112, 112, 0.253);
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.navbar,
+.menu-container,
+.navbar-toggle {
+    border: none;
+}
+
+ul.navbar-nav>li>a {
+    border: none;
+}
+
+img.navbar-image {
+    border: none;
+}
+
+.toggle-icon {
+    border: none;
+}
+</style>
